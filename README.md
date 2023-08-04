@@ -1,6 +1,6 @@
 # bulk_RNA-seq
 
-# Prepare the environment
+## Prepare the environment
 
 ### 仮想環境の構築
 ターミナルで実行
@@ -38,7 +38,7 @@ install.packages("BiocManager")
 BiocManager::install("DESeq2")
 ```
 
-# Mapping
+## Mapping
 やること
 - raw dataのトリミング&クオリティチェック
 - リファレンスゲノムへのmapping
@@ -80,7 +80,7 @@ cd Desktop/bulk_RNA-seq/mapping/script
 bash exec_mapping_pair.sh
 ```
 
-# DEGanalysis
+## DEGanalysis
 やること
 - 各サンプルの発現量データをまとめた、gene_count_matrixの作成
 - 発現変動解析
